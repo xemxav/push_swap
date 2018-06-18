@@ -13,9 +13,8 @@ This project makes two executables :
 	rra: reverse rotate A: move all the elements on A and move them towards the end, moving the last element to the beginning
 	rrb: reverse rotate B: move all the elements on B and move them towards the end, moving the last element to the beginning
 	rrr: do commands rra and rrb at the same time
-
 	- checker takes the same numbers as argument and reads the instructions given by push_swap. It determines if it ordered or not.
-
+	
 I used an insertion sort for list of number bigger than 50.
 
 With option -v on both checker and push_swap, it enables the visualisation of the evolution of both stacks. 
