@@ -2,9 +2,7 @@
 
 ## Key take away: 
 
-This project gave me a good understanding of different sorting algorithm and was an introduction to algorithm complexity.
-
-I used an insertion sort for list of numbers bigger than 50.
+This project gave me a good understanding of different sorting algorithm like insertion sort and was an introduction to algorithm complexity.
 
 ## Project description : 
 
@@ -31,9 +29,11 @@ Then the programm needs to order it with the help of a second stack (B) and the 
 	- rrb: reverse rotate B: move all the elements on B and move them towards the end, moving the last element to the beginning
 	- rrr: do commands rra and rrb at the same time
 
-###### **checker**:
+It prints the instructions on stdout.
 
-It takes the same numbers as argument and reads the instructions given by push_swap. It determines if it is ordered or not.
+###### checker**:
+
+It takes the same numbers as argument and reads on stdin the instructions given by push_swap. It determines if it is ordered or not.
 
 With option -v on both **checker** and **push_swap**, it enables the visualisation of both stacks'evolution.
 
@@ -41,6 +41,7 @@ With option -v on both **checker** and **push_swap**, it enables the visualisati
 
 ```bash
 make
-
+export ARG=<random list of int between MININT and MAXINT>
+./push_swap $ARG | ./checker $ARG
 ```
 
