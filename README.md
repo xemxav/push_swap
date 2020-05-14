@@ -2,7 +2,7 @@
 
 ### This project makes two executables :
 
-- **push_swap** takes a list of different number form MININT to MAXINT a create a stack (A).
+- **push_swap**
 - **checker** 
 
 ###### Push_swap:
