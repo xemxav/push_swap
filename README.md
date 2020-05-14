@@ -1,5 +1,13 @@
 # push_swap
 
+## Key take away: 
+
+This project gave me a good understanding of different sorting algorithm and was an introduction to algorithm complexity.
+
+I used an insertion sort for list of numbers bigger than 50.
+
+## Project description : 
+
 ### This project makes two executables :
 
 - **push_swap**
@@ -27,10 +35,12 @@ Then the programm needs to order it with the help of a second stack (B) and the 
 
 It takes the same numbers as argument and reads the instructions given by push_swap. It determines if it is ordered or not.
 
-With option -v on both **checker** and **push_swap**, it enables the visualisation of both stacks'evolution. 
+With option -v on both **checker** and **push_swap**, it enables the visualisation of both stacks'evolution.
 
-## Learnings : 
+#### Usage :
 
-I used an insertion sort for list of number bigger than 50.
+```bash
+make
 
-This project gave me a good understanding of different sorting algorithm and was an introduction to algorithm complexity.
+```
+
